@@ -1,0 +1,64 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+
+.container {
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.capitais {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+.cidade {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #888888;
+  margin:10px;
+}
+
+
+.imagem img {
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+}
+
+.nome {
+  width: 400px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 0 20px 20px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome p {
+  font-size: 1.5em;
+  margin: 0;
+}
