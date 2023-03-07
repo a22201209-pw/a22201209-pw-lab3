@@ -4,24 +4,42 @@
   margin: 0 auto;
 }
 
-nav {
-  display: flex;
+.header {
+  position: sticky;
+  top: 0;
   background-color: #333;
-  color: #fff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
 }
 
 nav a {
-  color: #fff;
+  padding: 20px;
+  color: white;
   text-decoration: none;
-  padding: 10px;
+  font-size: 18px;
 }
 
 nav a:hover {
-  background-color: #fff;
-  color: #333;
+  background-color: #ddd;
+  font-weight: bold;
 }
 
 .capitais {
